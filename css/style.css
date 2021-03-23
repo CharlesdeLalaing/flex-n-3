@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    text-align: left;
+    background-color: aqua;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+article {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    text-align: left;
+    height: 400px;
+}
+
+nav {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+aside {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    text-align: left;
+    background-color: aqua;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
